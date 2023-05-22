@@ -14,13 +14,12 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         private long tempsExecution = -1;
         public string Nom => "Algorithme de Welsh-Powell";
 
-        public long TempsExecution => -1;
+        public long TempsExecution => tempsExecution;
         //Effectue la coloration d'un groupe de sommets 
         public static void OneGroupeColoration(List<Sommet> sommets, int capaciteTable, int GroupNumber)
         {
             //Initialisation des variables
             List<Sommet> groupe = new List<Sommet>(); //Création du groupe 
-            bool full = false;
             bool friendlyWithGroup;
 
             foreach (Sommet sommet in sommets)//On parcourt tous les sommets
@@ -57,22 +56,18 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             List<Sommet> sommets = graphe.Sommets;
             var comparateur = Comparer<Sommet>.Create((x, y) => y.Voisins.Count.CompareTo(x.Voisins.Count)); //Création d'un comparateur selon les degrées (ordre décroissant)
             sommets.Sort(comparateur);//Classement des sommets selon leurs degrés 
-            Console.WriteLine();
             while (sommets.Count > 0)
             {
                 OneGroupeColoration(sommets, taverne.CapactieTables, i);
                 taverne.AjouterTable();
                 i++;
             }
-            Console.WriteLine();
-
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
                 Sommet sommet = graphe.GetSommetWithClient(client);
                 int couleurSommet = sommet.Couleur;
                 taverne.AjouterClientTable(client.Numero, couleurSommet);
             }
-
             stopwatch.Stop();
             this.tempsExecution = stopwatch.ElapsedMilliseconds;
             Console.WriteLine(this.tempsExecution.ToString());
