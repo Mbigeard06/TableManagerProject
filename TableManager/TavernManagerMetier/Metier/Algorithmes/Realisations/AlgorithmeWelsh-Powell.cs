@@ -20,15 +20,12 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         {
             //Initialisation des variables
             List<Sommet> groupe = new List<Sommet>(); //Création du groupe 
-            int i = 0; //Indice du sommet pour parcourir la liste
             bool full = false;
             bool friendlyWithGroup;
 
-            while (!full)
+            foreach (Sommet sommet in sommets)//On parcourt tous les sommets
             {
                 friendlyWithGroup = true;
-                Sommet sommet = sommets[i]; //Récupération du sommet d'indice i
-
                 foreach (Sommet sommetDuGroupe in groupe)//Parcours des sommets du groupe 
                 {
                     if (sommetDuGroupe.ennemi(sommet))//Les deux sommets sont ennemis
@@ -38,24 +35,15 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                 }
                 if (groupe.Count() >= capaciteTable)//Plus de place à la table 
                 {
-                    full = true;
+                    break;
                 }
-                if (friendlyWithGroup & !full) //Le sommet n'a pas d'ennemi dans le groupe 
+                if (friendlyWithGroup) //Le sommet n'a pas d'ennemi dans le groupe 
                 {
                     groupe.Add(sommet);
                     sommet.Couleur = GroupNumber;
-                    sommets.Remove(sommet);
                 }
-                if (i < sommets.Count - 1)//On passe au sommet suivant 
-                {
-                    i++;
-                }
-                else
-                {
-                    full = true;
-                }
-
             }
+            sommets.RemoveAll(s => groupe.Contains(s));//On supprime les sommets ajoutés au groupe de la liste des sommets 
         }
         public void Executer(Taverne taverne)
         {
