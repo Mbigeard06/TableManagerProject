@@ -66,6 +66,7 @@ namespace TavernManagerMetier.Metier.Tavernes
 
             //On change le client de table
             this.clients[numeroClient].ChangerTable(this.tables[numeroTable]);
-        } 
+        }
+        
     }
 }

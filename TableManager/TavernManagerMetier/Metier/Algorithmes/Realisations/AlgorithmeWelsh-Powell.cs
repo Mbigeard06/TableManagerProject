@@ -16,7 +16,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
 
         public long TempsExecution => tempsExecution;
         //Effectue la coloration d'un groupe de sommets 
-        public static void OneGroupeColoration(List<Sommet> sommets, int capaciteTable, int GroupNumber)
+        public void OneGroupeColoration(List<Sommet> sommets, int capaciteTable, int GroupNumber)
         {
             //Initialisation des variables
             List<Sommet> groupe = new List<Sommet>(); //Création du groupe 
@@ -47,21 +47,23 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         public void Executer(Taverne taverne)
         {
             //Création du graphe
-            Graphe graphe = new Graphe(taverne);
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
+            Graphe graphe = new Graphe(taverne);
             int i = 0; //Index groupe
 
             //Initialisation des données.
             List<Sommet> sommets = graphe.Sommets;
             var comparateur = Comparer<Sommet>.Create((x, y) => y.Voisins.Count.CompareTo(x.Voisins.Count)); //Création d'un comparateur selon les degrées (ordre décroissant)
-            sommets.Sort(comparateur);//Classement des sommets selon leurs degrés 
-            while (sommets.Count > 0)
+            sommets.Sort(comparateur);//Classement des sommets selon leurs degrés (décroissants)
+            while (sommets.Count > 0)//Tant que sommet n'est pas vide
             {
-                OneGroupeColoration(sommets, taverne.CapactieTables, i);
-                taverne.AjouterTable();
+                OneGroupeColoration(sommets, taverne.CapactieTables, i); //On crée un nouveau groupe et on y affecte des sommets 
+                taverne.AjouterTable();//On créée une table correspondant au groupe
                 i++;
             }
+
+            //Mise en place du plant de table
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
                 Sommet sommet = graphe.GetSommetWithClient(client);

@@ -12,7 +12,7 @@ using System.Windows.Automation.Peers;
 
 namespace TavernManagerMetier.Metier.Algorithmes.Realisations
 {
-    public class AlgorithmeDeColoration : IAlgorithme
+    public class AlgorithmeDeColorationCroissante : IAlgorithme
     {
         private long tempsExecution = -1;
         public string Nom => "Coloration croissante";
@@ -21,26 +21,18 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         {
             return couleur.Values.Any(liste => liste.Any(s => s.Voisins.Contains(sommet)));
         }
-        //Effectue une coloration sur un seul groupe donné et retire les sommets qui se sont vues attribuer un groupe
-                              
-        
-         public void Executer(Taverne taverne)
+        //Coloration qui attribue pour chaque sommet la plus petite valeur possible et qui retourne le numéro du dernier groupe 
+        public static int ColorationOptimale(List<Sommet> listeSommets, int capacite)
         {
-            //Création du graphe
-            Graphe graphe = new Graphe(taverne);
-            Stopwatch stopwatch = new Stopwatch();
-            stopwatch.Start();
-
             //Initialisation des données.
             int firstFreeGroup = 0;
             bool attributed;
             bool friendlyWithGroup;
             bool groupeComplet;
             int i;//Index
-            int capaciteTable = taverne.CapactieTables; //capacité d'une table
             Dictionary<int, List<Sommet>> couleur = new Dictionary<int, List<Sommet>>(); //Dictionnaire qui repertorie les groupes
             couleur[firstFreeGroup] = new List<Sommet>();
-            foreach (Sommet s in graphe.Sommets)
+            foreach (Sommet s in listeSommets)
             {
                 attributed = false;
                 i = firstFreeGroup;
@@ -57,7 +49,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                                 friendlyWithGroup = false;
                             }
                         }
-                        if (groupeCouleur.Count() >= capaciteTable)//Plus de place à la table 
+                        if (groupeCouleur.Count() >= capacite)//Plus de place à la table 
                         {
                             groupeComplet = true;
                             if (i == firstFreeGroup)//Le premier groupe accessible est complet 
@@ -83,17 +75,26 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                         s.Couleur = i;
                         attributed = true;
                     }
-
                 }
-
             }
+            return couleur.Keys.Last();
+        }
+        public void Executer(Taverne taverne)
+        {
+            //Création du graphe
+            Stopwatch stopwatch = new Stopwatch();
+            stopwatch.Start();
+            Graphe graphe = new Graphe(taverne);
+            
+            int lastGroupe = ColorationOptimale(graphe.Sommets, taverne.CapactieTables);//Mise en place de la coloration optimale et on récupére le numéro du dernier groupe 
+            
             //Mise en place du plant de table 
-            foreach (int key in couleur.Keys) taverne.AjouterTable(); //Crééer autant de table que de couleur 
+            stopwatch.Start();
+            for (int i = 0; i <= lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleur 
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
                 Sommet sommet = graphe.GetSommetWithClient(client);
-                int couleurSommet = sommet.Couleur;
-                taverne.AjouterClientTable(client.Numero, couleurSommet);
+                taverne.AjouterClientTable(client.Numero, sommet.Couleur);
             }
             stopwatch.Stop();
             this.tempsExecution = stopwatch.ElapsedMilliseconds;
