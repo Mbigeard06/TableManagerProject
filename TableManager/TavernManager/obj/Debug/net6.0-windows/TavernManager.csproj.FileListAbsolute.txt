@@ -1,0 +1,168 @@
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TavernManager.exe
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TableManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\bin\Debug\net6.0-windows\TableManagerMetier.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManager\obj\Debug\net6.0-windows\ref\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.exe
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\obj\Debug\net6.0-windows\ref\TavernManager.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.exe
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\ref\TavernManager.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.exe
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.g.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.baml
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\ref\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.exe
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManager\obj\Debug\net6.0-windows\ref\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.exe
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.deps.json
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.runtimeconfig.json
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\bin\Debug\net6.0-windows\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.AssemblyReference.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager_MarkupCompile.lref
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\App.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetreCreationTaverne.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\Vues\FenetrePrincipale.baml
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.g.resources
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfoInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.AssemblyInfo.cs
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.csproj.CopyComplete
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\refint\TavernManager.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\TavernManager.genruntimeconfig.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManager\obj\Debug\net6.0-windows\ref\TavernManager.dll

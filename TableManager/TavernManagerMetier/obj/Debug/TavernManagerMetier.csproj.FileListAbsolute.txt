@@ -1,0 +1,36 @@
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.pdb
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.dll
+C:\Users\mb203509\Desktop\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.pdb
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.dll
+\\iut21.u-bourgogne.fr\racine\dijon\enseignement\etudiants\INFO-DIJ\BUT-INFO-DIJ-1\mb203509\SEMESTRE2\S2_02 - Exploration algorithmique d'un problème\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\tableManager\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\bin\Debug\TavernManagerMetier.pdb
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.AssemblyReference.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.dll
+C:\Users\mateo\OneDrive - Université de Bourgogne\Year1_Computer_science_but\S2\SAE2.02\codeSource\TableManager\TavernManagerMetier\obj\Debug\TavernManagerMetier.pdb

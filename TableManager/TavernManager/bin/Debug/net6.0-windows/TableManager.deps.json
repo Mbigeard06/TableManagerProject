@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "TableManager/1.0.0": {
+        "dependencies": {
+          "TableManagerMetier": "1.0.0"
+        },
+        "runtime": {
+          "TableManager.dll": {}
+        }
+      },
+      "TableManagerMetier/1.0.0": {
+        "runtime": {
+          "TableManagerMetier.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TableManager/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "TableManagerMetier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

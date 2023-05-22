@@ -1,0 +1,12 @@
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.csproj.AssemblyReference.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.pdb
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.dll
+C:\Users\MatthieuSIMONET\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.pdb
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.dll
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\bin\Debug\TableManagerMetier.pdb
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.csproj.AssemblyReference.cache
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.csproj.CoreCompileInputs.cache
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.dll
+C:\Users\simonetma\Desktop\SAE2.02\TableManager\TableManagerMetier\obj\Debug\TableManagerMetier.pdb
