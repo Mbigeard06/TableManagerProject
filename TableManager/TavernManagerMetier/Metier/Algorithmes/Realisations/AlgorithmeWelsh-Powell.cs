@@ -15,7 +15,12 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         public string Nom => "Algorithme de Welsh-Powell";
 
         public long TempsExecution => tempsExecution;
-        //Effectue la coloration d'un groupe de sommets 
+        /// <summary>
+        /// Coloration 
+        /// </summary>
+        /// <param name="sommets"> la liste des sommets </param>
+        /// <param name="capaciteTable">la capacité de la table</param>
+        /// <param name="GroupNumber"> la "couleur" du groupe </param>
         public void OneGroupeColoration(List<Sommet> sommets, int capaciteTable, int GroupNumber)
         {
             //Initialisation des variables
@@ -32,7 +37,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                         friendlyWithGroup = false;
                     }
                 }
-                if (groupe.Count() >= capaciteTable)//Plus de place à la table 
+                if (AnalyseTaverne.nbClientGroupe(groupe) + sommet.NbClients > capaciteTable)//Plus de place à la table 
                 {
                     break;
                 }
@@ -46,12 +51,16 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         }
         public void Executer(Taverne taverne)
         {
-            //Création du graphe
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
+            //Création du graphe 
             Graphe graphe = new Graphe(taverne);
             int i = 0; //Index groupe
-
+            
+            //On regarde si la taverne est réalisable 
+            AnalyseTaverne.capaciteTableInsufisante(graphe.Sommets, taverne.CapactieTables);
+            AnalyseTaverne.amisDennemis(taverne);
+            
             //Initialisation des données.
             List<Sommet> sommets = graphe.Sommets;
             var comparateur = Comparer<Sommet>.Create((x, y) => y.Voisins.Count.CompareTo(x.Voisins.Count)); //Création d'un comparateur selon les degrées (ordre décroissant)

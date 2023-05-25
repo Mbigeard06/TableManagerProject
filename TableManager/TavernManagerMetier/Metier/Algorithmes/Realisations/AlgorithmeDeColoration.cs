@@ -1,18 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using TavernManagerMetier.Metier.Tavernes;
 using TavernManagerMetier.Metier.Algorithmes.Graphes;
-using System.Diagnostics;
-using System.Windows.Controls;
-using System.Windows.Documents.DocumentStructures;
-using System.Windows.Automation.Peers;
+using TavernManagerMetier.Metier.Tavernes;
 
 namespace TavernManagerMetier.Metier.Algorithmes.Realisations
-{
-    public class AlgorithmeDeColorationCroissante : IAlgorithme
+{   /// <summary>
+    /// Algorithme de coloration croissante 
+    /// </summary>
+    internal class AlgorithmeDeColorationCroissante : IAlgorithme
     {
         private long tempsExecution = -1;
         public string Nom => "Coloration croissante";
@@ -21,75 +20,82 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         {
             return couleur.Values.Any(liste => liste.Any(s => s.Voisins.Contains(sommet)));
         }
-        //Coloration qui attribue pour chaque sommet la plus petite valeur possible et qui retourne le numéro du dernier groupe 
+
+        /// <summary>
+        /// Coloration qui attribue pour chaque sommet la plus petite valeur possible et qui retourne le numéro du dernier groupe 
+        /// </summary>
+        /// <param name="capacite">la capacité des tables</param>
+        /// <param name="listeSommets"> la liste des sommets </param>
         public static int ColorationOptimale(List<Sommet> listeSommets, int capacite)
         {
-            //Initialisation des données.
             int firstFreeGroup = 0;
-            bool attributed;
-            bool friendlyWithGroup;
-            bool groupeComplet;
-            int i;//Index
-            Dictionary<int, List<Sommet>> couleur = new Dictionary<int, List<Sommet>>(); //Dictionnaire qui repertorie les groupes
-            couleur[firstFreeGroup] = new List<Sommet>();
+            int nbGroups = 0;
+            Dictionary<int, List<Sommet>> couleur = new Dictionary<int, List<Sommet>>();
+
             foreach (Sommet s in listeSommets)
             {
-                attributed = false;
-                i = firstFreeGroup;
+                bool attributed = false;
+                int i = firstFreeGroup;
+
                 while (!attributed)
                 {
                     if (couleur.TryGetValue(i, out List<Sommet> groupeCouleur)) //Le groupe existe 
                     {
-                        groupeComplet = false;
-                        friendlyWithGroup = true;
-                        foreach (Sommet sommetDuGroupe in groupeCouleur)//Parcours des sommets du groupe 
+                        bool friendlyWithGroup = true;
+
+                        foreach (Sommet sommetDuGroupe in groupeCouleur)
                         {
-                            if (sommetDuGroupe.ennemi(s))//Les deux sommets sont ennemis
+                            if (sommetDuGroupe.Voisins.Contains(s)) //Le sommet a un ennemi dans le groupe 
                             {
                                 friendlyWithGroup = false;
+                                break;
                             }
                         }
-                        if (groupeCouleur.Count() >= capacite)//Plus de place à la table 
+
+                        if (AnalyseTaverne.nbClientGroupe(groupeCouleur) + s.NbClients > capacite)//Plus de place dans le groupe 
                         {
-                            groupeComplet = true;
-                            if (i == firstFreeGroup)//Le premier groupe accessible est complet 
-                            {
-                                firstFreeGroup++;
-                            }
+                            i++;
+                            continue;
                         }
-                        if (friendlyWithGroup & !groupeComplet) //Le sommet n'a pas d'ennemi dans le groupe et il y'a de la place à la table
+
+                        if (friendlyWithGroup)//Le sommet n'a pas d'ennemis 
                         {
+
                             groupeCouleur.Add(s);
                             s.Couleur = i;
                             attributed = true;
                         }
-                        else //Le sommet a des ennemis dans le groupe 
-                        {
-                            i++;
-                        }
                     }
-                    else //Le groupe n'existe pas 
+                    else //Le groupe n'existe pas encore 
                     {
                         couleur[i] = new List<Sommet>();
                         couleur[i].Add(s);
                         s.Couleur = i;
                         attributed = true;
+                        nbGroups++;
                     }
+
+                    i++;//On passe au groupe suivant 
                 }
             }
-            return couleur.Keys.Last();
+
+            return nbGroups;
         }
+
         public void Executer(Taverne taverne)
         {
-            //Création du graphe
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
+            //Création du graphe
             Graphe graphe = new Graphe(taverne);
-            
+            //On regarde si la taverne est réalisable 
+            AnalyseTaverne.capaciteTableInsufisante(graphe.Sommets, taverne.CapactieTables);
+            AnalyseTaverne.amisDennemis(taverne);
+
+            //On lance la coloration
             int lastGroupe = ColorationOptimale(graphe.Sommets, taverne.CapactieTables);//Mise en place de la coloration optimale et on récupére le numéro du dernier groupe 
-            
+
             //Mise en place du plant de table 
-            stopwatch.Start();
             for (int i = 0; i <= lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleur 
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
@@ -102,3 +108,4 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
         }
     }
 }
+

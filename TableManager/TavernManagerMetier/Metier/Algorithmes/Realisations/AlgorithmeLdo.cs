@@ -25,7 +25,10 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             Stopwatch stopwatch = new Stopwatch();
             stopwatch.Start();
             Graphe graphe = new Graphe(taverne);
-            
+
+            //On regarde si la taverne est réalisable 
+            AnalyseTaverne.capaciteTableInsufisante(graphe.Sommets, taverne.CapactieTables);
+            AnalyseTaverne.amisDennemis(taverne);
 
             //Initialisation des données.
             List<Sommet> sommets = graphe.Sommets;

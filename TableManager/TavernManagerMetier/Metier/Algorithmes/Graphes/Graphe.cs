@@ -38,8 +38,8 @@ namespace TavernManagerMetier.Metier.Algorithmes.Graphes
             if (!this.sommets.ContainsKey(client))
             {
                 this.sommets[client] = sommet;//Les amis sont mis sur le même sommet 
-                sommet.NbClients++;//On incrémente de 1 qui détermine le nombre de sommet
-                foreach (Client ami in client.Amis) this.AjouterSommet(ami, sommet);
+                sommet.NbClients++;//On incrémente de 1 le nb de clients dans le sommet
+                foreach (Client ami in client.Amis) this.AjouterSommet(ami, sommet);//On ajoute une clée/valeur amie mais qui renvoi vers le même sommet
             }
         }
         private void AjouterArete(Client client1, Client client2)
@@ -49,7 +49,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Graphes
 
         //Obtenir le somemt associé au client
         public Sommet GetSommetWithClient(Client client)
-        {
+        {        
             this.sommets.TryGetValue(client, out Sommet s);
             return s;
         }
