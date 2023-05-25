@@ -38,7 +38,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             int lastGroupe = AlgorithmeDeColorationCroissante.ColorationOptimale(graphe.Sommets, taverne.CapactieTables);//On effectue la coloration optimale 
             
             //Mise en place du plant de table 
-            for (int i = 0; i <= lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleur 
+            for (int i = 0; i < lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleur 
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
                 Sommet sommet = graphe.GetSommetWithClient(client);

@@ -5,11 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace TavernManagerMetier.Exceptions.Realisations.GestionTaverne
-{
+{   /// <summary>
+    /// Exception levée si un client a un ami qui a pour ami un des ses ennemis 
+    /// </summary>
     internal class ExceptionAmisDennemis : ExceptionGestionTaverne
     {
         /// <summary>
-        /// Un client a un ami qui est aussi ami avec des ennemis du client
+        /// Constructeur par défaut 
         /// </summary>
         public ExceptionAmisDennemis() : base("Un client a un ami qui est aussi ami avec des ennemis du client ")
         {

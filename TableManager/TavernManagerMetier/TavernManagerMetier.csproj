@@ -66,7 +66,6 @@
     <Compile Include="Metier\Algorithmes\Realisations\AlgorithmeDSATUR.cs" />
     <Compile Include="Metier\Algorithmes\Realisations\AlgorithmeExemple.cs" />
     <Compile Include="Metier\Algorithmes\Realisations\AlgorithmeLdo.cs" />
-    <Compile Include="Metier\Algorithmes\Realisations\AlgorithmeTest.cs" />
     <Compile Include="Metier\Algorithmes\Realisations\AlgorithmeWelsh-Powell.cs" />
     <Compile Include="Metier\Algorithmes\Realisations\AnalyseTaverne.cs" />
     <Compile Include="Metier\Tavernes\Fabriques\FabriqueClient.cs" />

@@ -30,6 +30,12 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             foreach (Sommet sommet in sommets)//On parcourt tous les sommets
             {
                 friendlyWithGroup = true;
+                
+                if (AnalyseTaverne.nbClientGroupe(groupe) + sommet.NbClients > capaciteTable)//Plus de place dans le groupe
+                {
+                    break;
+                }
+
                 foreach (Sommet sommetDuGroupe in groupe)//Parcours des sommets du groupe 
                 {
                     if (sommetDuGroupe.ennemi(sommet))//Les deux sommets sont ennemis
@@ -37,10 +43,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                         friendlyWithGroup = false;
                     }
                 }
-                if (AnalyseTaverne.nbClientGroupe(groupe) + sommet.NbClients > capaciteTable)//Plus de place à la table 
-                {
-                    break;
-                }
+                
                 if (friendlyWithGroup) //Le sommet n'a pas d'ennemi dans le groupe 
                 {
                     groupe.Add(sommet);

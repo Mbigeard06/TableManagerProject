@@ -6,6 +6,7 @@ using TavernManagerMetier.Metier.Algorithmes.Graphes;
 using TavernManagerMetier.Metier.Algorithmes;
 using TavernManagerMetier.Metier.Tavernes;
 using TavernManagerMetier.Metier.Algorithmes.Realisations;
+using System.Diagnostics.Eventing.Reader;
 
 public class AlgorithmeDSATUR : IAlgorithme
 {
@@ -25,19 +26,19 @@ public class AlgorithmeDSATUR : IAlgorithme
             {
                 bool friendlyWithGroup = true;
 
-                foreach (Sommet sommetDuGroupe in groupeCouleur)
-                {
-                    if (sommetDuGroupe.Voisins.Contains(s)) //Le sommet a un ennemi dans le groupe 
-                    {
-                        friendlyWithGroup = false;
-                        break;
-                    }
-                }
-
                 if (AnalyseTaverne.nbClientGroupe(groupeCouleur) + s.NbClients > capacite)//Plus de place dans le groupe 
                 {
                     i++;
                     continue;
+                }
+
+                foreach (Sommet sommetDuGroupe in groupeCouleur)
+                {
+                    if (sommetDuGroupe.ennemi(s)) //Le sommet a un ennemi dans le groupe 
+                    {
+                        friendlyWithGroup = false;
+                        break;
+                    }
                 }
 
                 if (friendlyWithGroup)//Le sommet n'a pas d'ennemis 
@@ -79,69 +80,65 @@ public class AlgorithmeDSATUR : IAlgorithme
         List<Sommet> sommetATraiter = graphe.Sommets;
         int nbSommetsColored = 0;
         Dictionary<int, List<Sommet>> couleur = new Dictionary<int, List<Sommet>>();
-        Dictionary<Sommet, int> coloredVoisins = new Dictionary<Sommet, int>(); //Associe à chaque sommet son nombre de voisins coloriés 
+        
 
 
         while (sommetATraiter.Count > 0) 
         {
                 //Choix du sommet 
                 Sommet sommetAColorier = null;
-                coloredVoisins.Clear();
-                foreach (Sommet s in sommetATraiter)
+                int highestColoredNeighboors = 0;//Record de voisins coloriés
+                List<Sommet> mostColored = new List<Sommet>();//Création de la liste qui contient la/les sommets avec le plus de voisins coloriés 
+                foreach (Sommet s in sommetATraiter)//Calcul du nombre de voisins coloriés pour chaque sommet présent
                 {
-                    int coloredV = 0;
+                    int coloredV = 0; //Nombre de voisins coloriés 
                     foreach (Sommet voisin in s.Voisins)
                     {
-                        if (voisin.Couleur != null)
+                        if (voisin.Couleur != null)//Le voisin a une couleur attribuée 
                         {
                             coloredV++;
                         }
                     }
-                    coloredVoisins.Add(s, coloredV);
+                    if(coloredV > highestColoredNeighboors)//Le record est battu 
+                    {
+                        mostColored.Clear(); //Le sommet devient seul en tête 
+                        mostColored.Add(s); 
+                    }
+                    else if (coloredV == highestColoredNeighboors)//Le record est égalisé
+                    {
+                        mostColored.Add(s);//On ajoute le sommet
+                    }
                 }
                 
-                List<Sommet> mostColored = new List<Sommet>();
-                mostColored.Clear();
-                foreach (Sommet s in coloredVoisins.Keys)
-                {
-                    int highestColoredNeighboors = 0;
-                    if (coloredVoisins[s] > highestColoredNeighboors)
-                    {
-                        highestColoredNeighboors = coloredVoisins[s];
-                        mostColored.Clear();
-                        mostColored.Add(s);
-                    }
-                    else if (coloredVoisins[s] == highestColoredNeighboors)
-                    {
-                        mostColored.Add(s);
-                    }
-                    sommetAColorier = mostColored[0];
-                }
                 
                 if (mostColored.Count > 1) //Plusieurs sommets ont le même nombre de voisins coloriés 
                 {
                     int highestNeighboors = 0;
-                    foreach (Sommet s in mostColored)
+                    foreach (Sommet s in mostColored)//On cherche celui avec le plus de voisins 
                     {
-                        if (s.Voisins.Count() >= highestNeighboors)
+                        if (s.Voisins.Count() >= highestNeighboors)//Il bat le record du nombre de voisins
                         {
-                            highestNeighboors = s.Voisins.Count();
+                            highestNeighboors = s.Voisins.Count();//Nouveau record fixé
                         }
-                        else
+                        else//Il ne bat pas le record
                         {
-                            mostColored.Remove(s);
+                            mostColored.Remove(s);//On l'enlève de la liste 
                         }
                     }
-                    sommetAColorier = mostColored[0];
                 }
-                if (mostColored.Count > 1)
+
+                if (mostColored.Count > 1)//Plusieurs sommets ont le même nombre de voisins et le même nombre d'entre eux coloriés
                 {
-                    Random random = new Random();
+                    Random random = new Random(); //On choisi un sommet aléatoire dans la liste 
                     int index = random.Next(mostColored.Count());
                     sommetAColorier = mostColored[index];
                 }
+                else//Le sommet est seul dans la liste 
+                {
+                    sommetAColorier = mostColored[0];
+                }
                 //Coloration
-                colorierSommet(sommetAColorier, couleur, taverne.NombreTables);
+                colorierSommet(sommetAColorier, couleur, taverne.CapactieTables);//On colorie le sommet
                 sommetATraiter.Remove(sommetAColorier);//On enlève le sommet 
         }
         

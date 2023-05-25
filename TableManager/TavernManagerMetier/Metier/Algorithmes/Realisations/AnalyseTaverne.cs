@@ -52,7 +52,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             
         }
         /// <summary>
-        /// Regarde si un client a un amis qui est amis avec un des ses ennemmis 
+        /// Regarde si un client a un ami qui est ami avec un des ses ennemmis 
         /// </summary>
         /// <param name="taverne"></param>
         /// <exception cref="ExceptionAmisDennemis"></exception>

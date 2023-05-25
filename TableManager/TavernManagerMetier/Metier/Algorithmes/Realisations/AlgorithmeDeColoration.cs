@@ -43,6 +43,12 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                     {
                         bool friendlyWithGroup = true;
 
+                        if (AnalyseTaverne.nbClientGroupe(groupeCouleur) + s.NbClients > capacite)//Plus de place dans le groupe 
+                        {
+                            i++;
+                            continue;
+                        }
+
                         foreach (Sommet sommetDuGroupe in groupeCouleur)
                         {
                             if (sommetDuGroupe.Voisins.Contains(s)) //Le sommet a un ennemi dans le groupe 
@@ -50,12 +56,6 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
                                 friendlyWithGroup = false;
                                 break;
                             }
-                        }
-
-                        if (AnalyseTaverne.nbClientGroupe(groupeCouleur) + s.NbClients > capacite)//Plus de place dans le groupe 
-                        {
-                            i++;
-                            continue;
                         }
 
                         if (friendlyWithGroup)//Le sommet n'a pas d'ennemis 
@@ -96,7 +96,7 @@ namespace TavernManagerMetier.Metier.Algorithmes.Realisations
             int lastGroupe = ColorationOptimale(graphe.Sommets, taverne.CapactieTables);//Mise en place de la coloration optimale et on récupére le numéro du dernier groupe 
 
             //Mise en place du plant de table 
-            for (int i = 0; i <= lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleur 
+            for (int i = 0; i < lastGroupe; i++) taverne.AjouterTable(); //Crééer autant de table que de couleurs
             foreach (Client client in taverne.Clients) //Pour chaque client on regarde la couleur de son sommet associé
             {
                 Sommet sommet = graphe.GetSommetWithClient(client);
